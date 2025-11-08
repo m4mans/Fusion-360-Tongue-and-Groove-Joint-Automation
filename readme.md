@@ -2,6 +2,12 @@
 
 Python scripts for Autodesk Fusion 360 that automate the creation of tongue and groove joints. The scripts generate parametric geometry based on a selected face and adjustable dimension values, allowing for fast and consistent joint creation across multiple parts.
 
+
+
+https://github.com/user-attachments/assets/48339d90-373f-42dc-b9bf-17cb1fbd0e7c
+
+
+
 ## Overview
 
 The purpose of this project is to reduce repetitive modeling steps when designing assemblies that require tongue and groove connections. The scripts project face geometry, apply offset curves, and create either an extrusion (tongue) or a cut (groove) using the defined joint parameters. The resulting features are consistent and dimension-driven.
@@ -38,7 +44,7 @@ thickness = 1
 tongue_height = 0.4
 distance_x_left = 0.5
 distance_y_left = 0.5
-
+```
 Modify these to match material thickness and desired fit tolerance.
 
 ## Contributions
